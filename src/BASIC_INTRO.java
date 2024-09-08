@@ -70,11 +70,12 @@ public class BASIC_INTRO {
         System.out.println(o3.age);
         System.out.println(o3.roll);
         System.out.println(o3.name);
-//        O4 OBJECT AS PARAMETER
+//        O4 and O5 OBJECT AS PARAMETER
         Student o4 = new Student(o3);
         System.out.println(o4.name);
         System.out.println(o4.age);
         System.out.println(o4.roll);
+
     }
 }
 
@@ -130,12 +131,14 @@ class Student{
     }
 
 //  YOU CAN PASS A WHOLE OBJECT INTO A CONSTRUCTOR AS A PARAMETER ()
-
+//  timeline 1h:14m:10s
     Student(Student access3){
         this.name = access3.name;
         this.age = access3.age;
         this.roll = access3.roll;
     }
-
+//    Student(){
+//        this (61,"Yogesh",18); //WAY TO DEFAULT
+//    }
 
 }
