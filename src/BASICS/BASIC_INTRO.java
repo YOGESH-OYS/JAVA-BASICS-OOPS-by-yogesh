@@ -1,3 +1,5 @@
+package BASICS;
+
 import java.util.Arrays;
 
 public class BASIC_INTRO {
@@ -21,7 +23,7 @@ public class BASIC_INTRO {
 
 //        BY CLASS WE CAN COMBINE THE MULTIPLE ENTITY OF DIFFERENT DATATYPES
 
-//        let's say that we create a class called "Student" in this student we have to have all the entity ,and also need access the element or entities
+//        let's say that we create a class called "BASICS.Student" in this student we have to have all the entity ,and also need access the element or entities
 
 //        TO ACCESS AND ENTER ELEMENT ( syntax )
         Student[] student = new Student[5];
@@ -70,7 +72,7 @@ public class BASIC_INTRO {
         System.out.println(o3.age);
         System.out.println(o3.roll);
         System.out.println(o3.name);
-//        O4 and O5 OBJECT AS PARAMETER
+//        O4 and O3 OBJECT AS PARAMETER
         Student o4 = new Student(o3);
         System.out.println(o4.name);
         System.out.println(o4.age);
@@ -130,14 +132,14 @@ class Student{
         age = ge;
     }
 
-//  YOU CAN PASS A WHOLE OBJECT INTO A CONSTRUCTOR AS A PARAMETER ()
+//  YOU CAN PASS A WHOLE OBJECT INTO A CONSTRUCTOR AS A PARAMETER ()  REF VARIABLE O4 WITH O3 AS OBJECT
 //  timeline 1h:14m:10s
     Student(Student access3){
-        this.name = access3.name;
+        this.name = access3.name;//access.name is equal to O3.name
         this.age = access3.age;
         this.roll = access3.roll;
     }
-//    Student(){
+//    BASICS.Student(){
 //        this (61,"Yogesh",18); //WAY TO DEFAULT
 //    }
 

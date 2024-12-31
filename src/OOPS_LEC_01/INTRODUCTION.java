@@ -1,4 +1,16 @@
-// HOW EXACTLY A CLASS WORKS....
+//   PLEASE REFER WITH THE PAPER NOTES PROVIDED
+
+
+
+
+
+
+
+
+
+
+
+
 
 package OOPS_LEC_01;
 
