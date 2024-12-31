@@ -142,5 +142,4 @@ class Student{
 //    BASICS.Student(){
 //        this (61,"Yogesh",18); //WAY TO DEFAULT
 //    }
-
 }
