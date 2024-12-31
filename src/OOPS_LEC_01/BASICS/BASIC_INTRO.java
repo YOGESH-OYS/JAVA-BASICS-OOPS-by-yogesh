@@ -1,4 +1,4 @@
-package BASICS;
+package OOPS_LEC_01.BASICS;
 
 import java.util.Arrays;
 
@@ -23,7 +23,7 @@ public class BASIC_INTRO {
 
 //        BY CLASS WE CAN COMBINE THE MULTIPLE ENTITY OF DIFFERENT DATATYPES
 
-//        let's say that we create a class called "BASICS.Student" in this student we have to have all the entity ,and also need access the element or entities
+//        let's say that we create a class called "OOPS_LEC_01.BASICS.Student" in this student we have to have all the entity ,and also need access the element or entities
 
 //        TO ACCESS AND ENTER ELEMENT ( syntax )
         Student[] student = new Student[5];
@@ -139,7 +139,7 @@ class Student{
         this.age = access3.age;
         this.roll = access3.roll;
     }
-//    BASICS.Student(){
+//    OOPS_LEC_01.BASICS.Student(){
 //        this (61,"Yogesh",18); //WAY TO DEFAULT
 //    }
 }
